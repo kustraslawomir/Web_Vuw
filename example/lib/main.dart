@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
-import 'package:web_vuw/web_vuw.dart';
-import 'package:web_vuw_example/popup_screen.dart';
+import 'package:pull_to_refresh_web_view/pull_to_refresh_web_view.dart';
+import 'popup_screen.dart';
 
 void main() => runApp(MaterialApp(home: Example()));
 

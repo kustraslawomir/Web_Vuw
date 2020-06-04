@@ -1,6 +1,6 @@
-# web_vuw_example
+# pull_to_refresh_web_view_example
 
-Demonstrates how to use the web_vuw plugin.
+Demonstrates how to use the pull_to_refresh_web_view plugin.
 
 ## Getting Started
 

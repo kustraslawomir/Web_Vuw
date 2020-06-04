@@ -11,7 +11,7 @@ class WebVuwPlugin {
             registrar
                     .platformViewRegistry()
                     .registerViewFactory(
-                            "plugins.devfatani.com/web_vuw", WebVuwFactory(registrar.messenger()));
+                            "plugins.devfatani.com/pull_to_refresh_web_view", WebVuwFactory(registrar.messenger()));
         }
     }
 }

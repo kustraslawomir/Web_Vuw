@@ -1,5 +1,5 @@
-name: web_vuw_example
-description: Demonstrates how to use the web_vuw plugin.
+name: pull_to_refresh_web_view_example
+description: Demonstrates how to use the pull_to_refresh_web_view plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  web_vuw:
+  pull_to_refresh_web_view:
     path: ../
 
 # For information on the generic Dart part of this file, see the

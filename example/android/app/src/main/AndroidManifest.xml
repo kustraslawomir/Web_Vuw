@@ -14,7 +14,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="web_vuw_example"
+        android:label="pull_to_refresh_web_view_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

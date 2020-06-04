@@ -16,8 +16,8 @@ enum JavaScriptMode {
 
 class WebVuwController {
   WebVuwController._(int id)
-      : _channel = MethodChannel('plugins.devfatani.com/web_vuw_$id'),
-        this._webVuwEvents = EventChannel('web_vuw_events_$id');
+      : _channel = MethodChannel('plugins.devfatani.com/pull_to_refresh_web_view_$id'),
+        this._webVuwEvents = EventChannel('pull_to_refresh_web_view_events_$id');
 
   final EventChannel _webVuwEvents;
 
@@ -118,7 +118,7 @@ class _WebVuwState extends State<WebVuw> {
       return GestureDetector(
         onLongPress: () {},
         child: AndroidView(
-          viewType: 'plugins.devfatani.com/web_vuw',
+          viewType: 'plugins.devfatani.com/pull_to_refresh_web_view',
           onPlatformViewCreated: _onPlatformViewCreated,
           gestureRecognizers: widget.gestureRecognizers,
           layoutDirection: TextDirection.rtl,
@@ -128,7 +128,7 @@ class _WebVuwState extends State<WebVuw> {
       );
     } else if (defaultTargetPlatform == TargetPlatform.iOS) {
       return UiKitView(
-        viewType: 'plugins.devfatani.com/web_vuw',
+        viewType: 'plugins.devfatani.com/pull_to_refresh_web_view',
         onPlatformViewCreated: _onPlatformViewCreated,
         gestureRecognizers: widget.gestureRecognizers,
         creationParams: _CreationParams.fromWidget(widget).toMap(),

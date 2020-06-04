@@ -1,4 +1,4 @@
-# web_vuw
+# pull_to_refresh_web_view
 
 ### A plugin that can embedded (web view) with flutter widgets.
 
@@ -33,7 +33,7 @@
     dependencies:
        flutter:
         sdk: flutter
-       web_vuw:
+       pull_to_refresh_web_view:
 ```
 
 ## How it works
